@@ -11,7 +11,8 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v2
-        path: repository
+        with:
+            path: repository
 
       - name: Build list 🏗️
         run: |
