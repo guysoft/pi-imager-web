@@ -1,0 +1,28 @@
+name: Deploy to pages
+
+on:
+  repository_dispatch:
+  push:
+
+jobs:
+  build-and-deploy:
+    concurrency: ci-${{ github.ref }} # Recommended if you intend to make multiple deployments in quick succession.
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2
+        path: repository
+
+      - name: Build list 🏗️
+        run: |
+          mkdir os_list
+          
+          wget https://downloads.raspberrypi.org/os_list_imagingutility_v2.json
+          
+          python3 ./repository/join_distros.py ./repository/distros_list os_list_imagingutility_v2.json os_list/os_list_imagingutility_v2.json
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4.2.2
+        with:
+          branch: gh-pages # The branch the action should deploy to.
+          folder: os_list # The folder the action should deploy.

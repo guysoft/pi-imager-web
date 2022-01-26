@@ -1,0 +1,11 @@
+{
+    "path": ["Other specific purpose OS"],
+    "os_list": [
+        {
+            "name": "FullPageOS",
+            "description": "Display a full page browser on boot in kiosk mode",
+            "icon": "https://github.com/guysoft/FullPageOS/raw/devel/media/rpi-imager-FullPageOS.png",
+            "subitems_url": "https://unofficialpi.org/rpi-imager/rpi-imager-fullpageos.json"
+        }
+    ]
+}
