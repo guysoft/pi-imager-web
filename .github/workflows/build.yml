@@ -16,6 +16,7 @@ jobs:
 
       - name: Build list 🏗️
         run: |
+          ls -l
           mkdir os_list
           
           wget https://downloads.raspberrypi.org/os_list_imagingutility_v2.json
