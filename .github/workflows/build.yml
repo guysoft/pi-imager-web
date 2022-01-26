@@ -21,7 +21,7 @@ jobs:
           
           wget https://downloads.raspberrypi.org/os_list_imagingutility_v2.json
           
-          python3 ./repository/join_distros.py ./repository/distros_list os_list_imagingutility_v2.json os_list/os_list_imagingutility_v2.json
+          python3 ./repository/src/join_distros.py ./repository/src/distros_list os_list_imagingutility_v2.json os_list/os_list_imagingutility_v2.json
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.2.2
