@@ -1,0 +1,11 @@
+{
+    "path": [],
+    "os_list": [
+        {
+            "name": "PlermoaPi",
+            "description": "Runs a Pleroma fediverse federated social network node",
+            "icon": "https://raw.githubusercontent.com/guysoft/PleromaPi/devel/media/rpi-imager-PleromaPi.png",
+            "subitems_url": "https://unofficialpi.org/rpi-imager/rpi-imager-pleromapi.json"
+        }
+    ]
+}
