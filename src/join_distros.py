@@ -20,7 +20,7 @@ def make_unofficial_menu(official):
     
     unofficial_entry = {"name": "Unfficial",
                     "description": "The community mainained raspberrypi imager repository",
-                    "icon": "https://raw.githubusercontent.com/guysoft/pi-imager/qml/icons/cat_unofficialpi.png",
+                    "icon": "https://raw.githubusercontent.com/guysoft/pi-imager/qml/src/icons/cat_unofficialpi.png",
                     "subitems": unofficial_subitems}
     
     os_list = [official_entry, unofficial_entry]
