@@ -17,9 +17,7 @@ jobs:
           ls -l
           mkdir os_list
           
-          wget https://downloads.raspberrypi.org/os_list_imagingutility_v3.json
-          
-          python3 ./src/join_distros.py ./src/distros_list os_list_imagingutility_v3.json os_list/os_list_imagingutility_v3.json
+          python3 ./src/join_distros.py ./src/distros_list os_list/os_list_imagingutility_v3.json
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.2.2
