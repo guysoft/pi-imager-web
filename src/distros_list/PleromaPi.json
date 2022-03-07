@@ -5,6 +5,7 @@
             "name": "PlermoaPi",
             "description": "Runs a Pleroma fediverse federated social network node",
             "icon": "https://raw.githubusercontent.com/guysoft/PleromaPi/devel/media/rpi-imager-PleromaPi.png",
+            "website": "https://github.com/guysoft/PleromaPi",
             "subitems_url": "https://unofficialpi.org/rpi-imager/rpi-imager-pleromapi.json"
         }
     ]
