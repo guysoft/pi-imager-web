@@ -23,7 +23,8 @@ jobs:
           fi
 
       - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@v4.2.2
+        uses: JamesIves/github-pages-deploy-action@v4.2.5
         with:
+          clean: false
           branch: gh-pages # The branch the action should deploy to.
           folder: os_list # The folder the action should deploy.
