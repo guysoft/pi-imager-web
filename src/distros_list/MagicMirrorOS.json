@@ -1,0 +1,12 @@
+{
+    "path": [],
+    "os_list": [
+        {
+            "name": "MagicMirrorOS",
+            "description": "MagicMirror\u00b2 is an open source modular smart mirror platform",
+            "icon": "https://raw.githubusercontent.com/guysoft/MagicMirrorOS/devel/media/rpi-imager-MagicMirrorOS.png",
+            "website": "https://magicmirror.builders/",
+            "subitems_url": "https://unofficialpi.org/rpi-imager/rpi-imager-magicmirroros.json"
+        }
+    ]
+}
