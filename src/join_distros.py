@@ -13,12 +13,12 @@ def get_path_id(path, output_json):
 def make_unofficial_menu(official_url, imager_data):
     unofficial_subitems = []
     official_entry = {"name": "Official",
-                      "description": "The officialy mainained raspberrypi imager repository",
+                      "description": "The officialy maintained Raspberry Pi imager repository",
                       "icon": "icons/cat_raspberry_pi_os.png",
                       "subitems_url": official_url}
     
-    unofficial_entry = {"name": "Unfficial",
-                    "description": "The community mainained raspberrypi imager repository",
+    unofficial_entry = {"name": "Unofficial",
+                    "description": "The community maintained Raspberry Pi imager repository",
                     "icon": "https://raw.githubusercontent.com/guysoft/pi-imager/qml/src/icons/cat_unofficialpi.png",
                     "subitems": unofficial_subitems}
     
