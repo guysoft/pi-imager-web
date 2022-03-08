@@ -16,8 +16,11 @@ jobs:
         run: |
           ls -l
           mkdir os_list
-          
-          python3 ./src/join_distros.py ./src/distros_list os_list/os_list_imagingutility_v3.json
+          if [ "${GITHUB_REF_NAME}" == "main" ]; then
+              python3 ./src/join_distros.py ./src/distros_list os_list/os_list_imagingutility_v3.json
+          else
+              python3 ./src/join_distros.py ./src/distros_list os_list/os_list_imagingutility_v3-"${GITHUB_REF_NAME}".json
+          fi
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.2.2
