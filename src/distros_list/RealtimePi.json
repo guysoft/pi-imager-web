@@ -1,0 +1,12 @@
+{
+    "path": [],
+    "os_list": [
+        {
+            "name": "RealtimePi",
+            "description": "An out-of-the-box RaspberryPi OS with a realtime kernel",
+            "icon": "https://raw.githubusercontent.com/guysoft/RealtimePi/devel/media/rpi-imager-RealtimePi.png",
+            "website": "https://github.com/guysoft/RealtimePi",
+            "subitems_url": "https://unofficialpi.org/rpi-imager/rpi-imager-realtimepi.json"
+        }
+    ]
+}
