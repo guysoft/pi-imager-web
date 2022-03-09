@@ -1,0 +1,12 @@
+{
+    "path": [],
+    "os_list": [
+        {
+            "name": "UbuntuDockerPi",
+            "description": "Ready to use 64bit ARM Docker for Raspberry Pi running on Ubuntu",
+            "icon": "https://raw.githubusercontent.com/guysoft/CustomPiOS/devel/media/rpi-imager-CustomPiOS.png",
+            "website": "https://github.com/guysoft/UbuntuDockerPi",
+            "subitems_url": "https://unofficialpi.org/rpi-imager/rpi-imager-ubuntudockerpi.json"
+        }
+    ]
+}
