@@ -1,0 +1,12 @@
+{
+    "path": [],
+    "os_list": [
+        {
+            "name": "MtigOS",
+            "description": "Raspberry Pi distro that lets you receive, store and graph sensor information from ESP8266 chips",
+            "icon": "https://raw.githubusercontent.com/guysoft/CustomPiOS/devel/media/rpi-imager-CustomPiOS.png",
+            "website": "https://github.com/guysoft/MtigOS",
+            "subitems_url": "https://unofficialpi.org/rpi-imager/rpi-imager-mtigos.json"
+        }
+    ]
+}
