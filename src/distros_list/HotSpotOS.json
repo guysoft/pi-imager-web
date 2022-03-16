@@ -1,0 +1,12 @@
+{
+    "path": [],
+    "os_list": [
+        {
+            "name": "HotSpotOS",
+            "description": "Start a hotspot, bridges internet comming in from ethernet.",
+            "icon": "https://raw.githubusercontent.com/guysoft/HotSpotOS/devel/media/rpi-imager-HotSpotOS.png",
+            "website": "https://github.com/guysoft/HotSpotOS",
+            "subitems_url": "https://unofficialpi.org/rpi-imager/rpi-imager-hotspotos.json"
+        }
+    ]
+}
