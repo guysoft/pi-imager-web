@@ -1,7 +1,7 @@
 # pi-imager-web
 Serve the pi-imager community images list.
 
-You can use the list with the [community run pi-imager fork](https://github.com/guysoft/pi-imager-web).
+You can use the list with the [community run pi-imager fork](https://github.com/guysoft/pi-imager).
 
 Or by running:
 ```
