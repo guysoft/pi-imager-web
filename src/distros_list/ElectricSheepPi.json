@@ -1,0 +1,12 @@
+{
+    "path": [],
+    "os_list": [
+        {
+            "name": "ElectricSheepPi",
+            "description": "A Raspberry Pi distribution to to run Electric Sheep, crowdsourced evolving art",
+            "icon": "https://raw.githubusercontent.com/guysoft/HotSpotOS/devel/media/rpi-imager-HotSpotOS.png",
+            "website": "https://electricsheep.org",
+            "subitems_url": "https://unofficialpi.org/rpi-imager/rpi-imager-electricsheeppi.json"
+        }
+    ]
+}
