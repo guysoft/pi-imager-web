@@ -1,0 +1,12 @@
+{
+    "path": [],
+    "os_list": [
+        {
+            "name": "LibrePhotosOS",
+            "description": "A self-hosted open source photo management service. Including Face recognition, semantic image search and more",
+            "icon": "https://raw.githubusercontent.com/guysoft/LibrePhotosOS/devel/media/rpi-imager-LibrePhotosOS.png",
+            "website": "https://github.com/LibrePhotos/librephotos",
+            "subitems_url": "https://unofficialpi.org/rpi-imager/rpi-imager-librephotosos.json"
+        }
+    ]
+}
