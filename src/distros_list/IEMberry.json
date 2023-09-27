@@ -1,0 +1,12 @@
+{
+  "path": [],
+  "os_list": [
+    {
+      "name": "IEMberry",
+      "description": "A Raspberry Pi distro for Computer Musicians and Sound Artists",
+      "icon": "https://iemberry.iem.at/logos/rpi-imager-iemberry.png",
+      "website": "https://iemberry.iem.at",
+      "subitems_url": "https://iemberry.iem.at/rpi-imager-iemberry.json"
+    }
+  ]
+}
